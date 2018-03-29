@@ -62,3 +62,18 @@ body {
 
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .side-nav {
+        width: 200px;
+    }
+    .side-nav ul li {
+        text-align: left;
+    }
+    .side-nav ul li span:nth-child(2) {
+        display: inline;
+    }
+    .side-nav ul li i {
+        font-size: 16px;
+    }
+}
